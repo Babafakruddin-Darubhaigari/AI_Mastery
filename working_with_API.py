@@ -1,8 +1,8 @@
 import requests
 
 # We need coordinates to get weather data
-latitude = 48.85   # Paris latitude
-longitude = 2.35   # Paris longitude
+latitude = 12.97   # Bangalore latitude
+longitude = 77.59  # Bangalore longitude
 
 # Build the API URL with our parameters
 url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m"
